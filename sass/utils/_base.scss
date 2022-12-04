@@ -1,0 +1,21 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+body {
+   font-size: 14px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   color: var(--main-color);
+ }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}

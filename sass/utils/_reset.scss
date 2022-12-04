@@ -1,0 +1,23 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+.header-adress,
+.benefits__list,
+.navigation-list,
+.work__list,
+.team__list,
+.footer-adress,
+.clients-list,
+.project-list,
+.team__social-links-list,
+.social-links-list{
+  list-style: none;
+}
