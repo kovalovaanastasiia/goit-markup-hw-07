@@ -22,7 +22,7 @@
   justify-content: center;
 }
 
-.social-link .footer-item {
+.footer-item {
   display: flex;
   width: 44px;
   height: 44px;
@@ -34,13 +34,11 @@
   box-shadow: none;
   fill: var(--secondary-color);
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.social-link .footer-item {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--brand-color);
+  }
 }
 
-.social-link .footer-item:hover,
-.social-link .footer-item:focus {
-  background-color: var(--brand-color);
-}

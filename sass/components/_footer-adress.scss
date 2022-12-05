@@ -16,6 +16,11 @@
 .phone {
   display: block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:active,
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
 }
 .mail,
 .phone {
@@ -29,19 +34,4 @@
 }
 .phone {
   margin-bottom: 0;
-}
-.location:active,
-.mail:active,
-.phone:active {
-  color: var(--brand-color);
-}
-.location:focus,
-.mail:focus,
-.phone:focus {
-  color: var(--brand-color);
-}
-.location:hover,
-.mail:hover,
-.phone:hover {
-  color: var(--brand-color);
 }

@@ -4,8 +4,8 @@
   display: flex;
 
   background-color: var(--background-color);
+  &-container {
+    display: flex;
+    align-items: baseline;
+  }
 }
-.footer-container {
-   display: flex;
-   align-items: baseline;
- }
